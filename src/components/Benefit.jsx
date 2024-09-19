@@ -1,5 +1,5 @@
 import location from "../images/location.svg";
-import iphone from "../images/iphone.svg";
+import iphone from "../images/Benefit.svg";
 
 const Benefit = () => {
   return (

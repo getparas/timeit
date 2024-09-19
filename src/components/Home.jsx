@@ -1,4 +1,4 @@
-import home from "../images/home.svg";
+import home from "../images/Home.svg";
 import appstore from "../images/appstore.svg";
 import playstore from "../images/playstore.svg";
 const Home = () => {

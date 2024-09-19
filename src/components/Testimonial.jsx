@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from "react";
-import testimonial from "../images/testimonial.svg";
+import testimonial from "../images/Testimonial.svg";
 import image1 from "../images/image1.jpeg";
 import image2 from "../images/image2.jpeg";
 import image3 from "../images/image3.jpeg";

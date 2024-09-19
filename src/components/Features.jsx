@@ -1,7 +1,7 @@
-import features from "../images/features.svg";
+import feature from "../images/Feature1.svg";
 import secure from "../images/secure.svg";
 import manage from "../images/manage.svg";
-import loyalti from "../images/loyalti.svg";
+import loyalty from "../images/loyalty.svg";
 import kite from "../images/kite.png";
 const Features = () => {
   return (
@@ -11,7 +11,7 @@ const Features = () => {
       </h1>
       <div className="flex flex-col flex-wrap md:flex-row md:justify-between">
         <div className="flex flex-wrap items-center justify-start w-full mb-10 md:w-1/2 md:mb-0">
-          <img src={features} alt="Feature Image" loading="lazy" />
+          <img src={feature} alt="Feature Image" loading="lazy" />
         </div>
         <div className="grid w-full grid-cols-1 gap-6 md:w-1/2 md:grid-cols-2 md:gap-8">
           {/* First Card */}
@@ -50,7 +50,7 @@ const Features = () => {
             <div className="flex items-center gap-2 mb-4">
               <span className="text-blue-500">
                 <img
-                  src={loyalti}
+                  src={loyalty}
                   alt="Loyalty"
                   className="w-8 h-8"
                   loading="lazy"
