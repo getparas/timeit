@@ -10,7 +10,12 @@ const Footer = () => {
               TimeIt
             </h1>
             <p className="flex items-center mt-2 text-base text-gray-700 md:text-lg">
-              <img src={email} alt="Email" className="w-5 h-5 mr-2" />
+              <img
+                src={email}
+                alt="Email"
+                className="w-5 h-5 mr-2"
+                loading="lazy"
+              />
               Help@timelit.com
             </p>
           </div>

@@ -11,7 +11,7 @@ const Features = () => {
       </h1>
       <div className="flex flex-col flex-wrap md:flex-row md:justify-between">
         <div className="flex flex-wrap items-center justify-start w-full mb-10 md:w-1/2 md:mb-0">
-          <img src={features} alt="Feature Image" className="" />
+          <img src={features} alt="Feature Image" loading="lazy" />
         </div>
         <div className="grid w-full grid-cols-1 gap-6 md:w-1/2 md:grid-cols-2 md:gap-8">
           {/* First Card */}
@@ -30,7 +30,12 @@ const Features = () => {
           <div className="flex flex-col h-full p-4 bg-white border-2 border-blue-200 rounded-lg shadow-md items-left">
             <div className="flex items-center gap-2 mb-4">
               <span className="text-blue-500">
-                <img src={manage} alt="Manage Bookings" className="w-8 h-8" />
+                <img
+                  src={manage}
+                  alt="Manage Bookings"
+                  className="w-8 h-8"
+                  loading="lazy"
+                />
               </span>
               <h2 className="text-4xl font-semibold text-gray-700">
                 Manage Bookings
@@ -44,7 +49,12 @@ const Features = () => {
           <div className="flex flex-col h-full p-4 bg-white border-2 border-blue-200 rounded-lg shadow-md items-left">
             <div className="flex items-center gap-2 mb-4">
               <span className="text-blue-500">
-                <img src={loyalti} alt="Loyalty" className="w-8 h-8" />
+                <img
+                  src={loyalti}
+                  alt="Loyalty"
+                  className="w-8 h-8"
+                  loading="lazy"
+                />
               </span>
               <h2 className="text-4xl font-semibold text-gray-700">Loyalty</h2>
             </div>
@@ -56,7 +66,12 @@ const Features = () => {
           <div className="flex flex-col h-full p-4 bg-white border-2 border-blue-200 rounded-lg shadow-md items-left">
             <div className="flex items-center gap-2 mb-4">
               <span className="text-blue-500">
-                <img src={kite} alt="Loyalty" className="w-8 h-8" />
+                <img
+                  src={kite}
+                  alt="Loyalty"
+                  className="w-8 h-8"
+                  loading="lazy"
+                />
               </span>
               <h2 className="text-4xl font-semibold text-gray-700">
                 My Leisure

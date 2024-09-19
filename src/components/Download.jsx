@@ -26,6 +26,7 @@ const Download = () => {
               src={appstore}
               alt="App Store"
               className="w-6 h-6 mr-2 sm:w-8 sm:h-8 md:w-10 md:h-10"
+              loading="lazy"
             />
             <span className="text-base sm:text-lg md:text-2xl">
               Download on the <br /> App Store
@@ -39,6 +40,7 @@ const Download = () => {
               src={playstore}
               alt="Play Store"
               className="w-6 h-6 mr-2 sm:w-8 sm:h-8 md:w-10 md:h-10"
+              loading="lazy"
             />
             <span className="text-base sm:text-lg md:text-2xl">
               Download on the <br /> Play Store

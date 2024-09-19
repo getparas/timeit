@@ -10,7 +10,12 @@ const Benefit = () => {
           Why choose TimeIt?
         </h1>
         <div className="flex items-center justify-center gap-5 mt-10 md:justify-start">
-          <img src={location} alt="Location" className="w-12 h-12" />
+          <img
+            src={location}
+            alt="Location"
+            className="w-12 h-12"
+            loading="lazy"
+          />
           <span className="text-[#494759] text-2xl font-bold">
             Location-Based Suggestions
           </span>
@@ -31,6 +36,7 @@ const Benefit = () => {
             src={iphone}
             alt="iPhone"
             className="absolute w-80 h-80 object-contain md:w-[600px] md:h-[600px]"
+            loading="lazy"
           />
         </div>
       </div>

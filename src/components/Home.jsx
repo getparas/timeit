@@ -43,7 +43,12 @@ const Home = () => {
         </div>
       </div>
       <div className="">
-        <img className="w-full h-full" src={home} alt="Home icon" />
+        <img
+          className="w-full h-full"
+          src={home}
+          alt="Home icon"
+          loading="lazy"
+        />
       </div>
     </div>
   );

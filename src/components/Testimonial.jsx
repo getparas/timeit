@@ -61,7 +61,7 @@ const Testimonial = () => {
       </div>
       <div className="flex flex-col flex-wrap justify-around md:flex-row">
         <div className="">
-          <img src={testimonial} alt="Testimonial" />
+          <img src={testimonial} alt="Testimonial" loading="lazy" />
         </div>
         <div className="mt-10 w-full md:w-[50%]">
           <div
@@ -86,6 +86,7 @@ const Testimonial = () => {
                 src={item.image}
                 alt={`Testimonial ${index + 1}`}
                 onClick={() => handleSelect(index)}
+                loading="lazy"
               />
             ))}
           </div>
